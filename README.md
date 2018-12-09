@@ -8,7 +8,7 @@
 至少在Windows10 （1803）中，即使设置文件默认打开方式也存在一些文件无法关联到指定的程序里，所以本脚本采用注册表操作，修复此问题。  
 ### 使用方式：
 ```
-.\Powershell_reg.ps1 `
+.\Change_default_programs.ps1 `
 -extensioname "ps1" `
 -vsico "C:\Program Files\Microsoft VS Code\resources\app\resources\win32\powershell.ico" `
 -vspath '"C:\Program Files\Microsoft VS Code\Code.exe" "%1"'
